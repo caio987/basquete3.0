@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1c56b4;
+    color: white;
+}
+header{
+    padding: 20px;
+    background-color: rgb(29, 71, 119);
+    border-top: 3px solid orange;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+nav a:hover{
+    font-size: 20px;
+    color: rgb(247, 133, 4);
+}   
+
+/* ------------------------------- Index --------------------------------------- */
+main{
+    background-color: #f8f8f838;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin: 40px auto;
+}
+main #caixaBasquete{
+    border: solid white;
+    border-radius: 20px;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+    display: flex;
+    margin: 10px 0 20px;
+}
+main #caixaBasquete img{
+    border-radius: 20px;
+    width: 400px;
+}
+main #caixaBasquete p{
+    padding: 20px;
+}
+main .links{
+    border: 3px solid black;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.527);
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 15px;
+    /* margin: 20px; */
+    transition: 0.5s;
+}
+main .links:hover{
+    background-color: #0000005b;
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+main .caixa{
+    margin: 20px 0;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+main .caixa a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+main .caixa .card{
+    border: solid 4px;
+    border-radius: 10px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.596);
+    text-decoration: none;
+    align-content: center;
+    margin: 2vh 0;
+    /* padding: 8px 15px; */
+    /* width: auto; */
+}
+main .caixa img{
+    /* border: solid; */
+    width: 130px;
+
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.329);
+    /* padding: 8px; */
+}
+main .caixa .jogadores img{
+    border: solid;
+    color: #000;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 2px;
+}
+main .caixa .card2{
+    width: 40%;
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    border: solid;
+}
+main .caixa .card2 img{
+    /* padding: 40px; */
+    border-radius: 50%;
+}
+/* ------------------------------- Fim Index --------------------------------------- */
+/* ------------------------------- Times --------------------------------------- */
+main .caixaTimes{
+    display: flex;
+
+    margin: 20px 0;
+}
+main .caixaTimes #time {
+    /* display: flex;
+    align-items: center; */
+    width: 150px;
+    text-align: center;
+    align-content: center;
+}
+main .caixaTimes #time img{
+    width: 100%;
+    background-color: #001aff31;
+    border-radius: 50%;
+    margin: 10px;
+}
+main .caixaTimes #time p{
+    font-size: 1.4em;
+}
+main .caixaTimes #informacoes{
+    width: 70%;
+    padding: 20px;
+}
+main .caixaTimes p{
+    margin: 10px;
+}
+/* ------------------------------- Fim Index --------------------------------------- */
+/* ------------------------------- Jogadores --------------------------------------- */
+main .caixaJogadores{
+    border: solid;
+    /* flex-wrap: wrap; */
+    display: flex;
+    margin: 20px 0;
+}
+main .caixaJogadores #jogador {
+    /* display: flex;
+    align-items: center; */
+    width: 30%;
+    text-align: center;
+    align-content: center;
+}
+main .caixaJogadores #jogador img{
+    border: solid;
+    border-radius: 20px;
+    height: 150px;
+    /* padding: 95px 70px; */
+    margin: 10px 0 0 0;
+}
+main .caixaJogadores #jogador p{
+    font-size: 1.5em;
+}
+main .caixaJogadores #informacoes{
+    width: 70%;
+    padding: 20px;
+}
+main .caixaJogadores p{
+    margin: 10px;
+}
+/* ------------------------------- Fim Jogadores --------------------------------------- */
+/* ------------------------------- Jogos --------------------------------------- */
+main .caixaJogos{
+    border: solid;
+    padding: 20px;
+    margin: 20px 0;
+}    
+main .caixaJogos h3{
+    text-align: center;
+}
+main .caixaJogos .times{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+main .caixaJogos .time img{
+    margin-top: 10px;
+    border: solid;  
+    width: 150px;
+    /* padding: 40px; */
+    border-radius: 50%;
+}
+
+/* ------------------------------- Fim Jogos --------------------------------------- */
+footer{
+    border: solid;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+footer #github{
+    /* border: solid; */
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer #github a{
+    margin: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer #github img{
+    width: 60px;
+    border: solid;
+    border-radius: 50%;
+}
